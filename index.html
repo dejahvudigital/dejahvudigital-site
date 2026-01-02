@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dejah Vu Digital — Studio Website</title>
+  <meta name="description" content="Tech-forward branding, web & app development by Dejah Vu Digital, LLC." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="logo" href="#">Dejah Vu Digital</a>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tag">Tech-forward digital studio</p>
+        <h1>Branding, web & app development—built to feel right.</h1>
+        <p class="subhead">
+          I help founders and creatives create modern digital experiences through clean design and thoughtful development.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Start a project</a>
+          <a class="btn secondary" href="#services">View services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Branding</h3>
+          <p>Identity systems, visual direction, and brand assets that look premium and communicate clearly.</p>
+        </div>
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Responsive websites built for clarity, conversion, and a polished user experience.</p>
+        </div>
+        <div class="card">
+          <h3>App Development</h3>
+          <p>MVP-focused builds and UI—designed to be scalable and user-centered.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <h2>Process</h2>
+      <ol class="steps">
+        <li><strong>Discover:</strong> goals, audience, and requirements</li>
+        <li><strong>Design:</strong> UI, UX, and brand alignment</li>
+        <li><strong>Develop:</strong> build, test, refine</li>
+        <li><strong>Deliver:</strong> launch + handoff</li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Ready to build? Send a quick note and I’ll follow up.</p>
+
+      <form class="form" id="contactForm">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+
+        <label>
+          What are you building?
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button class="btn primary" type="submit">Send</button>
+        <p class="form-note" id="formNote" aria-live="polite"></p>
+      </form>
+
+      <p class="alt-contact">Or email: <a href="mailto:hello@dejahvudigital.com">hello@dejahvudigital.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Dejah Vu Digital, LLC</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
